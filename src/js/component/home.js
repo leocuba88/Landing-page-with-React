@@ -11,7 +11,9 @@ export function Home() {
 	return (
 		<div>
 			<div className="navbarcss">
-				<Navbar />
+				<div className="container">
+					<Navbar />
+				</div>
 			</div>
 			<div className="container">
 				<Jumbotron />
