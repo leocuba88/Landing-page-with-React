@@ -3,7 +3,7 @@ import React from "react";
 export function Card() {
 	return (
 		<div className="card-group div">
-			<div className="card">
+			<div className="card card1">
 				<img
 					src="https://i.picsum.photos/id/1/5616/3744.jpg?hmac=kKHwwU8s46oNettHKwJ24qOlIAsWN9d2TtsXDoCWWsQ"
 					className="card-img-top"
@@ -13,11 +13,6 @@ export function Card() {
 					<p className="card-text">
 						This card has supporting text below as a natural lead-in
 						to additional content.
-					</p>
-					<p className="card-text">
-						<small className="text-muted">
-							Last updated 3 mins ago
-						</small>
 					</p>
 					<a href="#" className="btn btn-primary">
 						Go somewhere
@@ -35,11 +30,6 @@ export function Card() {
 						This card has supporting text below as a natural lead-in
 						to additional content.
 					</p>
-					<p className="card-text">
-						<small className="text-muted">
-							Last updated 3 mins ago
-						</small>
-					</p>
 					<a href="#" className="btn btn-primary">
 						Go somewhere
 					</a>
@@ -56,17 +46,12 @@ export function Card() {
 						This card has supporting text below as a natural lead-in
 						to additional content.
 					</p>
-					<p className="card-text">
-						<small className="text-muted">
-							Last updated 3 mins ago
-						</small>
-					</p>
 					<a href="#" className="btn btn-primary">
 						Go somewhere
 					</a>
 				</div>
 			</div>
-			<div className="card">
+			<div className="card card4">
 				<img
 					src="https://i.picsum.photos/id/1/5616/3744.jpg?hmac=kKHwwU8s46oNettHKwJ24qOlIAsWN9d2TtsXDoCWWsQ"
 					className="card-img-top"
@@ -76,11 +61,6 @@ export function Card() {
 					<p className="card-text">
 						This card has supporting text below as a natural lead-in
 						to additional content.
-					</p>
-					<p className="card-text">
-						<small className="text-muted">
-							Last updated 3 mins ago
-						</small>
 					</p>
 					<a href="#" className="btn btn-primary">
 						Go somewhere
